@@ -31,7 +31,10 @@ function callAPI(string $method, string $endpoint, mixed $data = false, $token =
     if ($token) {
         $headers[] = 'Authorization: Bearer ' . $token;
     }else{
-        $headers[] = 'Authorization: Bearer ' . $_SESSION['token'];
+        if ($_SESSION['token']){
+            $headers[] = 'Authorization: Bearer ' . $_SESSION['token'];
+        }
+
     }
 
     curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);

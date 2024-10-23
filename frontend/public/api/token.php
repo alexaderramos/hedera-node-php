@@ -19,6 +19,6 @@ if ($action === 'create') {
     if (isset($response->tokenId)) {
         header('Location: /dashboard.php');
     } else {
-        echo "Error al crear el token: " . $response->error;
+        header('Location: /create-token.php?error=token_not_created');
     }
 }
