@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { hash, compare } = require('bcrypt');
+const { hash, compare } = require('bcryptjs');
 const userRepository = require('../repositories/user.repository');
 const blackListJwtTokenRepository = require('../repositories/blackListJwtToken.repository');
 
