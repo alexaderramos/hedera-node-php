@@ -3,7 +3,11 @@
 ## Backend Node.js (Express)
 For running the backend, you need to have Node.js installed. You can download it from [here](https://nodejs.org/en/download/).
 
+### Postman Collection
 Postman collection for the backend API can be found [here](https://www.postman.com/alexander15go/hereda-bacend).
+
+### Swagger Documentation
+Swagger documentation for the backend API can be found [here](https://7nrhakpbud.execute-api.us-east-1.amazonaws.com/v1/api-docs/).
 
 ### Installation
 After installing Node.js, you need to install the dependencies. Run the following command in the root directory of the project:
