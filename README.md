@@ -4,7 +4,7 @@
 For running the backend, you need to have Node.js installed. You can download it from [here](https://nodejs.org/en/download/).
 
 ### Postman Collection
-Postman collection for the backend API can be found [here](https://www.postman.com/alexander15go/hereda-bacend).
+Postman collection for the backend API can be found [here](https://www.postman.com/alexander15go/workspace/hedera-backend).
 
 ### Swagger Documentation
 Swagger documentation for the backend API can be found [here](https://7nrhakpbud.execute-api.us-east-1.amazonaws.com/v1/api-docs/).
@@ -40,3 +40,6 @@ For running the frontend, you can use the PHP built-in server. Just run the foll
 ```
 php -S localhost:8000
 ```
+
+### Public URL
+The frontend is also hosted on Hostinger. You can access it [here](https://hedera-frontend.hatunperu.com).
