@@ -43,3 +43,16 @@ php -S localhost:8000
 
 ### Public URL
 The frontend is also hosted on Hostinger. You can access it [here](https://hedera-frontend.hatunperu.com).
+
+
+## Technologies Used
+- Node.js
+- Express
+- MySQL
+- PHP
+- Bootstrap
+- AWS (RDS, API Gateway, Lambda)
+- Hedera Hashgraph
+- Postman
+- Swagger
+- Hostinger
