@@ -5,6 +5,8 @@ const { errorHandler } = require('./src/middlewares/errorHandler');
 const cors = require('cors');
 const morgan = require('morgan');
 const awsServerlessExpress = require('aws-serverless-express');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocs = require('./src/config/swagger');
 
 const app = express();
 const server = awsServerlessExpress.createServer(app);
@@ -31,6 +33,15 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
+/**
+ * Swagger documentation
+ */
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
+/**
+ * Routes
+ */
 app.use('', routes);
 
 /**
