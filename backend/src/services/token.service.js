@@ -53,7 +53,7 @@ class TokenService {
 
       return { tokenId, name, symbol, initialSupply };
     } catch (error) {
-      throw new Error('Error al crear el token <<' + error.message);
+      throw new Error('Error al crear el token :' + error);
     }
   }
 
