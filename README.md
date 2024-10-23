@@ -3,6 +3,8 @@
 ## Backend Node.js (Express)
 For running the backend, you need to have Node.js installed. You can download it from [here](https://nodejs.org/en/download/).
 
+Postman collection for the backend API can be found [here](https://www.postman.com/alexander15go/hereda-bacend).
+
 ### Installation
 After installing Node.js, you need to install the dependencies. Run the following command in the root directory of the project:
 ```
@@ -23,8 +25,14 @@ The database connection is configured in the `config.js` file. You can change th
 
 ## Frontend PHP
 
+### Configuration
+You need to create a `.env` file in the root directory of the project. The file should contain the following variables:
+```
+API_URL=http://localhost:3000
+```
+
 ### Execution
-For running the frontend, you can use the PHP built-in server. Just run the following command in the root directory of the project:
+For running the frontend, you can use the PHP built-in server. Just run the following command in the root directory `public` of the project:
 ```
 php -S localhost:8000
 ```
